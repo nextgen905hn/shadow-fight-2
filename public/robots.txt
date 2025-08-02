@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://shadowfight2mod.netlify.app
+
+# Sitemaps
+Sitemap: https://shadowfight2mod.netlify.app/sitemap.xml
