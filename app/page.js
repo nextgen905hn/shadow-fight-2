@@ -1,7 +1,7 @@
 'use client'
 import React, { useState, useEffect } from 'react';
 import { Download, Shield, Star, Users, Gamepad2, Zap, Trophy, Sword } from 'lucide-react';
-
+import Head from 'next/head';
 export default function ShadowFight2Homepage() {
   const [isVisible, setIsVisible] = useState(false);
   const [downloadCount, setDownloadCount] = useState(0);
@@ -55,6 +55,10 @@ export default function ShadowFight2Homepage() {
   ];
 
   return (
+    <>
+    <Head>
+      <meta name="google-site-verification" content="26SYQ9kiEDg5pTNkSzNLiqQdpKMTmOLAOnx5zfSQd3I" />
+    </Head>
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white">
       {/* Header */}
 
@@ -290,5 +294,6 @@ export default function ShadowFight2Homepage() {
       {/* Footer */}
      
     </div>
+    </>
   );
 }
